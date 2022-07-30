@@ -1,0 +1,21 @@
+.carousel-item.ser{
+    background: url('../img/game/3170ba2fb647a23d1ed3c5514baf5887.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    
+}
+.carousel-item.serv{
+    background: url('../img/game/Diesel_productv2_huntdown_home_EGS_Huntdown_EasyTriggerGames_G1C_00-1920x1080-01905f172045edf7226fcd9a9798bdba0013a7e6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.carousel-item.servi{
+    background: url('../img/game/knack-818x1024.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
