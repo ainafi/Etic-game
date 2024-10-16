@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Nmediun";
+    src: url(./assets/fonts/font/NeueHaasDisplay-Mediu.ttf);
+}
+@font-face {
+    font-family: "Nbold";
+    src: url(./assets/fonts/font/NeueHaasDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: "Nlight";
+    src: url(./assets/fonts/font/NeueHaasDisplay-Light.ttf);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Text Gradient Example */ 
+.text-gradient {
+    color: #F7D8E9; 
+    background-image: linear-gradient(180deg, #F7D8E9 38%, #c381df 100%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+   }
