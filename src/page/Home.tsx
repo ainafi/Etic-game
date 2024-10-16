@@ -15,7 +15,6 @@ const Home: React.FC = () => {
         </div>
         <div className='py px-5'>
           <ContainerScroll titleComponent={<Title />} children={<img className='w-full h-full object-fit rounded-lg box-shadow' src={Banner} alt="banner" />}>
-          
           </ContainerScroll>
           <Offre/>
         </div>
