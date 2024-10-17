@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { fetchData } from '@/API/fetchData'
@@ -34,13 +35,13 @@ const Trend = () => {
           className="w-full "
         >
           <CarouselContent>
-            {data.results.map((movie, index) => (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
+            {data.results.map((movie: { poster_path: any; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | null | undefined }, index: React.Key | null | undefined) => (
+              <CarouselItem key={index} className="md:basis-1/3 lg:basis-1/4 basis-1/2">
                 <div className="p-1">
                   <Card>
                     <CardContent className="flex items-center justify-center p-6 aspect-square">
                       <div>
-                        <img className='w-[500px] rounded-md' src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />
+                        <img className='w-[500px] rounded-md' src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}  />
                         <p className='mt-3 font-semibold text-center text-white'>{movie.title}</p>
                       </div>
                     </CardContent>
