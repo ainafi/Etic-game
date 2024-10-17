@@ -7,7 +7,7 @@ import { ContainerScroll } from '../components/container-scroll-animation'; // U
 import Title from '../components/title';
 import Faq from '@/components/faq';
 import Footer from '@/components/Footer';
-
+import Trend from '@/components/Trend';
 const Home: React.FC = () => {
   return (
     <div className='w-full h-full bg-[#040207] overflow-hidden'>
