@@ -27,3 +27,8 @@
 -moz-box-shadow: -1px 6px 58px 30px rgba(179,4,255,1);
 box-shadow: -1px 6px 58px 30px rgba(179,4,255,1);
 }
+@layer base {
+  :root {
+        --radius: 0.5rem;
+    }
+}
